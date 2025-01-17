@@ -1,4 +1,4 @@
-# Cline – \#1 on OpenRouter
+# Cline – OpenRouterで1位
 
 <p align="center">
   <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" />
@@ -8,7 +8,7 @@
 <table>
 <tbody>
 <td align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev" target="_blank"><strong>Download on VS Marketplace</strong></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev" target="_blank"><strong>VS Marketplaceからダウンロード</strong></a>
 </td>
 <td align="center">
 <a href="https://discord.gg/cline" target="_blank"><strong>Discord</strong></a>
@@ -17,39 +17,39 @@
 <a href="https://www.reddit.com/r/cline/" target="_blank"><strong>r/cline</strong></a>
 </td>
 <td align="center">
-<a href="https://github.com/cline/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Feature Requests</strong></a>
+<a href="https://github.com/cline/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>機能リクエスト</strong></a>
 </td>
 <td align="center">
-<a href="https://cline.bot/join-us" target="_blank"><strong>We're Hiring!</strong></a>
+<a href="https://cline.bot/join-us" target="_blank"><strong>採用中！</strong></a>
 </td>
 </tbody>
 </table>
 </div>
 
-Meet Cline, an AI assistant that can use your **CLI** a**N**d **E**ditor.
+CLIとエディタを使用できるAIアシスタント、Clineをご紹介します。
 
-Thanks to [Claude 3.5 Sonnet's agentic coding capabilities](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf), Cline can handle complex software development tasks step-by-step. With tools that let him create & edit files, explore large projects, use the browser, and execute terminal commands (after you grant permission), he can assist you in ways that go beyond code completion or tech support. Cline can even use the Model Context Protocol (MCP) to create new tools and extend his own capabilities. While autonomous AI scripts traditionally run in sandboxed environments, this extension provides a human-in-the-loop GUI to approve every file change and terminal command, providing a safe and accessible way to explore the potential of agentic AI.
+[Claude 3.5 Sonnetのエージェント的なコーディング機能](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf)により、Clineは複雑なソフトウェア開発タスクをステップバイステップで処理できます。ファイルの作成・編集、大規模プロジェクトの探索、ブラウザの使用、ターミナルコマンドの実行（許可後）を可能にするツールにより、コード補完やテクニカルサポート以上の支援が可能です。ClineはModel Context Protocol (MCP)を使用して、新しいツールを作成し、自身の機能を拡張することもできます。従来の自律型AIスクリプトは独立した環境で実行されますが、この拡張機能は、ファイルの変更とターミナルコマンドを承認するためのヒューマンインザループGUIを提供し、エージェント型AIの可能性を安全にアクセス可能な方法で探索できます。
 
-1. Enter your task and add images to convert mockups into functional apps or fix bugs with screenshots.
-2. Cline starts by analyzing your file structure & source code ASTs, running regex searches, and reading relevant files to get up to speed in existing projects. By carefully managing what information is added to context, Cline can provide valuable assistance even for large, complex projects without overwhelming the context window.
-3. Once Cline has the information he needs, he can:
-    - Create and edit files + monitor linter/compiler errors along the way, letting him proactively fix issues like missing imports and syntax errors on his own.
-    - Execute commands directly in your terminal and monitor their output as he works, letting him e.g., react to dev server issues after editing a file.
-    - For web development tasks, Cline can launch the site in a headless browser, click, type, scroll, and capture screenshots + console logs, allowing him to fix runtime errors and visual bugs.
-4. When a task is completed, Cline will present the result to you with a terminal command like `open -a "Google Chrome" index.html`, which you run with a click of a button.
+1. タスクを入力し、モックアップを機能的なアプリに変換したり、スクリーンショットでバグを修正したりするための画像を追加します。
+2. Clineは、既存のプロジェクトで作業するために、ファイル構造とソースコードASTの分析、正規表現検索、関連ファイルの読み取りから始めます。コンテキストに追加する情報を慎重に管理することで、コンテキストウィンドウを圧迫することなく、大規模で複雑なプロジェクトでも価値のある支援を提供できます。
+3. 必要な情報を得たClineは以下のことができます：
+    - ファイルの作成・編集とリンター/コンパイラーエラーの監視。これにより、不足しているインポートや構文エラーなどの問題を自主的に修正できます。
+    - ターミナルで直接コマンドを実行し、作業中にその出力を監視。例えば、ファイル編集後の開発サーバーの問題に対応できます。
+    - Web開発タスクでは、サイトをヘッドレスブラウザで起動し、クリック、入力、スクロール、スクリーンショットやコンソールログの取得が可能で、ランタイムエラーや視覚的なバグを修正できます。
+4. タスクが完了すると、Clineは`open -a "Google Chrome" index.html`のようなターミナルコマンドで結果を表示し、ボタンをクリックするだけで実行できます。
 
 > [!TIP]
-> Use the `CMD/CTRL + Shift + P` shortcut to open the command palette and type "Cline: Open In New Tab" to open the extension as a tab in your editor. This lets you use Cline side-by-side with your file explorer, and see how he changes your workspace more clearly.
+> `CMD/CTRL + Shift + P`ショートカットを使用してコマンドパレットを開き、"Cline: Open In New Tab"と入力すると、エディタのタブとして拡張機能を開くことができます。これにより、ファイルエクスプローラーと並行してClineを使用し、ワークスペースの変更をより明確に確認できます。
 
 ---
 
 <img align="right" width="340" src="https://github.com/user-attachments/assets/3cf21e04-7ce9-4d22-a7b9-ba2c595e88a4">
 
-### Use any API and Model
+### あらゆるAPIとモデルを使用
 
-Cline supports API providers like OpenRouter, Anthropic, OpenAI, Google Gemini, AWS Bedrock, Azure, and GCP Vertex. You can also configure any OpenAI compatible API, or use a local model through LM Studio/Ollama. If you're using OpenRouter, the extension fetches their latest model list, allowing you to use the newest models as soon as they're available.
+ClineはOpenRouter、Anthropic、OpenAI、Google Gemini、AWS Bedrock、Azure、GCP VertexなどのAPIプロバイダーをサポートしています。OpenAI互換のAPIを設定したり、LM Studio/Ollamaを通じてローカルモデルを使用することもできます。OpenRouterを使用する場合、拡張機能は最新のモデルリストを取得し、新しいモデルが利用可能になり次第使用できます。
 
-The extension also keeps track of total tokens and API usage cost for the entire task loop and individual requests, keeping you informed of spend every step of the way.
+また、タスク全体と個々のリクエストのトークン総数とAPI使用コストを追跡し、支出状況を常に把握できます。
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -57,11 +57,11 @@ The extension also keeps track of total tokens and API usage cost for the entire
 
 <img align="left" width="370" src="https://github.com/user-attachments/assets/81be79a8-1fdb-4028-9129-5fe055e01e76">
 
-### Run Commands in Terminal
+### ターミナルでコマンドを実行
 
-Thanks to the new [shell integration updates in VSCode v1.93](https://code.visualstudio.com/updates/v1_93#_terminal-shell-integration-api), Cline can execute commands directly in your terminal and receive the output. This allows him to perform a wide range of tasks, from installing packages and running build scripts to deploying applications, managing databases, and executing tests, all while adapting to your dev environment & toolchain to get the job done right.
+新しい[VSCode v1.93のシェル統合アップデート](https://code.visualstudio.com/updates/v1_93#_terminal-shell-integration-api)のおかげで、Clineはターミナルで直接コマンドを実行し、その出力を受け取ることができます。これにより、パッケージのインストールやビルドスクリプトの実行からアプリケーションのデプロイ、データベースの管理、テストの実行まで、幅広いタスクを実行できます。Clineは開発環境とツールチェーンに適応し、仕事を正しく完了させます。
 
-For long running processes like dev servers, use the "Proceed While Running" button to let Cline continue in the task while the command runs in the background. As Cline works he’ll be notified of any new terminal output along the way, letting him react to issues that may come up, such as compile-time errors when editing files.
+開発サーバーのような長時間実行されるプロセスの場合、「実行中に続行」ボタンを使用して、コマンドがバックグラウンドで実行されている間にClineがタスクを続行できるようにします。Clineが作業を進める中で、新しいターミナル出力が通知され、ファイル編集時のコンパイルエラーなどの問題に対応できます。
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -69,11 +69,11 @@ For long running processes like dev servers, use the "Proceed While Running" but
 
 <img align="right" width="400" src="https://github.com/user-attachments/assets/c5977833-d9b8-491e-90f9-05f9cd38c588">
 
-### Create and Edit Files
+### ファイルの作成と編集
 
-Cline can create and edit files directly in your editor, presenting you a diff view of the changes. You can edit or revert Cline's changes directly in the diff view editor, or provide feedback in chat until you're satisfied with the result. Cline also monitors linter/compiler errors (missing imports, syntax errors, etc.) so he can fix issues that come up along the way on his own.
+Clineはエディタ内でファイルを直接作成および編集し、変更の差分ビューを表示します。差分ビューエディタでClineの変更を編集または元に戻すことができ、チャットでフィードバックを提供して満足するまで結果を調整できます。Clineはリンター/コンパイラーエラー（不足しているインポート、構文エラーなど）も監視し、途中で発生する問題を自主的に修正できます。
 
-All changes made by Cline are recorded in your file's Timeline, providing an easy way to track and revert modifications if needed.
+Clineによるすべての変更はファイルのタイムラインに記録され、必要に応じて変更を追跡および元に戻す簡単な方法を提供します。
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -81,11 +81,11 @@ All changes made by Cline are recorded in your file's Timeline, providing an eas
 
 <img align="left" width="370" src="https://github.com/user-attachments/assets/bc2e85ba-dfeb-4fe6-9942-7cfc4703cbe5">
 
-### Use the Browser
+### ブラウザを使用
 
-With Claude 3.5 Sonnet's new [Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use) capability, Cline can launch a browser, click elements, type text, and scroll, capturing screenshots and console logs at each step. This allows for interactive debugging, end-to-end testing, and even general web use! This gives him autonomy to fixing visual bugs and runtime issues without you needing to handhold and copy-pasting error logs yourself.
+Claude 3.5 Sonnetの新しい[コンピュータ使用](https://www.anthropic.com/news/3-5-models-and-computer-use)機能により、Clineはブラウザを起動し、要素をクリックし、テキストを入力し、スクロールし、各ステップでスクリーンショットとコンソールログをキャプチャできます。これにより、インタラクティブなデバッグ、エンドツーエンドテスト、さらには一般的なWeb使用が可能になります。これにより、視覚的なバグやランタイムの問題を手取り足取りでエラーログをコピー＆ペーストすることなく修正できます。
 
-Try asking Cline to "test the app", and watch as he runs a command like `npm run dev`, launches your locally running dev server in a browser, and performs a series of tests to confirm that everything works. [See a demo here.](https://x.com/sdrzn/status/1850880547825823989)
+Clineに「アプリをテストして」と頼んでみてください。彼は`npm run dev`のようなコマンドを実行し、ローカルで実行されている開発サーバーをブラウザで起動し、一連のテストを実行してすべてが正常に動作することを確認します。[デモはこちらをご覧ください。](https://x.com/sdrzn/status/1850880547825823989)
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -93,13 +93,13 @@ Try asking Cline to "test the app", and watch as he runs a command like `npm run
 
 <img align="right" width="350" src="https://github.com/user-attachments/assets/ac0efa14-5c1f-4c26-a42d-9d7c56f5fadd">
 
-### "add a tool that..."
+### 「ツールを追加して...」
 
-Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol), Cline can extend his capabilities through custom tools. While you can use [community-made servers](https://github.com/modelcontextprotocol/servers), Cline can instead create and install tools tailored to your specific workflow. Just ask Cline to "add a tool" and he will handle everything, from creating a new MCP server to installing it into the extension. These custom tools then become part of Cline's toolkit, ready to use in future tasks.
+[Model Context Protocol](https://github.com/modelcontextprotocol)のおかげで、Clineはカスタムツールを通じて機能を拡張できます。[コミュニティ製のサーバー](https://github.com/modelcontextprotocol/servers)を使用することもできますが、Clineは代わりに特定のワークフローに合わせたツールを作成してインストールできます。Clineに「ツールを追加して」と頼むだけで、MCPサーバーの作成から拡張機能へのインストールまで、すべてを処理します。これらのカスタムツールはClineのツールキットの一部となり、将来のタスクで使用できるようになります。
 
--   "add a tool that fetches Jira tickets": Retrieve ticket ACs and put Cline to work
--   "add a tool that manages AWS EC2s": Check server metrics and scale instances up or down
--   "add a tool that pulls the latest PagerDuty incidents": Fetch details and ask Cline to fix bugs
+-   「Jiraチケットを取得するツールを追加して」：チケットACを取得し、Clineに作業を依頼
+-   「AWS EC2を管理するツールを追加して」：サーバーメトリクスを確認し、インスタンスをスケールアップまたはダウン
+-   「最新のPagerDutyインシデントを取得するツールを追加して」：詳細を取得し、Clineにバグ修正を依頼
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -107,15 +107,15 @@ Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol),
 
 <img align="left" width="360" src="https://github.com/user-attachments/assets/7fdf41e6-281a-4b4b-ac19-020b838b6970">
 
-### Add Context
+### コンテキストを追加
 
-**`@url`:** Paste in a URL for the extension to fetch and convert to markdown, useful when you want to give Cline the latest docs
+**`@url`:** URLを貼り付けて拡張機能が取得し、Markdownに変換。最新のドキュメントをClineに提供したいときに便利
 
-**`@problems`:** Add workspace errors and warnings ('Problems' panel) for Cline to fix
+**`@problems`:** Clineが修正するためのワークスペースエラーと警告（「問題」パネル）を追加
 
-**`@file`:** Adds a file's contents so you don't have to waste API requests approving read file (+ type to search files)
+**`@file`:** ファイルの内容を追加して、ファイルの読み取りを承認するAPIリクエストを節約（ファイルを検索して入力）
 
-**`@folder`:** Adds folder's files all at once to speed up your workflow even more
+**`@folder`:** フォルダーのファイルを一度に追加して、ワークフローをさらにスピードアップ
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -123,39 +123,39 @@ Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol),
 
 <img align="right" width="350" src="https://github.com/user-attachments/assets/140c8606-d3bf-41b9-9a1f-4dbf0d4c90cb">
 
-### Checkpoints: Compare and Restore
+### チェックポイント：比較と復元
 
-As Cline works through a task, the extension takes a snapshot of your workspace at each step. You can use the 'Compare' button to see a diff between the snapshot and your current workspace, and the 'Restore' button to roll back to that point.
+Clineがタスクを進める中で、拡張機能は各ステップでワークスペースのスナップショットを撮ります。「比較」ボタンを使用してスナップショットと現在のワークスペースの差分を確認し、「復元」ボタンを使用してその時点にロールバックできます。
 
-For example, when working with a local web server, you can use 'Restore Workspace Only' to quickly test different versions of your app, then use 'Restore Task and Workspace' when you find the version you want to continue building from. This lets you safely explore different approaches without losing progress.
+たとえば、ローカルWebサーバーで作業する場合、「ワークスペースのみを復元」を使用してアプリの異なるバージョンを迅速にテストし、「タスクとワークスペースを復元」を使用して続行したいバージョンを見つけたときに使用します。これにより、進行状況を失うことなく異なるアプローチを安全に探索できます。
 
 <!-- Transparent pixel to create line break after floating image -->
 
 <img width="2000" height="0" src="https://github.com/user-attachments/assets/ee14e6f7-20b8-4391-9091-8e8e25561929"><br>
 
-## Contributing
+## 貢献
 
-To contribute to the project, start with our [Contributing Guide](CONTRIBUTING.md) to learn the basics. You can also join our [Discord](https://discord.gg/cline) to chat with other contributors in the `#contributors` channel. If you're looking for full-time work, check out our open positions on our [careers page](https://cline.bot/join-us)!
+プロジェクトに貢献するには、[貢献ガイド](CONTRIBUTING.md)から基本を学び始めてください。また、[Discord](https://discord.gg/cline)に参加して、`#contributors`チャンネルで他の貢献者とチャットすることもできます。フルタイムの仕事を探している場合は、[採用ページ](https://cline.bot/join-us)で公開されているポジションを確認してください。
 
 <details>
-<summary>Local Development Instructions</summary>
+<summary>ローカル開発の手順</summary>
 
-1. Clone the repository _(Requires [git-lfs](https://git-lfs.com/))_:
+1. リポジトリをクローンします（[git-lfs](https://git-lfs.com/)が必要です）：
     ```bash
     git clone https://github.com/cline/cline.git
     ```
-2. Open the project in VSCode:
+2. プロジェクトをVSCodeで開きます：
     ```bash
     code cline
     ```
-3. Install the necessary dependencies for the extension and webview-gui:
+3. 拡張機能とwebview-guiの必要な依存関係をインストールします：
     ```bash
     npm run install:all
     ```
-4. Launch by pressing `F5` (or `Run`->`Start Debugging`) to open a new VSCode window with the extension loaded. (You may need to install the [esbuild problem matchers extension](https://marketplace.visualstudio.com/items?itemName=connor4312.esbuild-problem-matchers) if you run into issues building the project.)
+4. `F5`を押して（または`Run`->`Start Debugging`）拡張機能が読み込まれた新しいVSCodeウィンドウを開きます。（プロジェクトのビルドに問題がある場合は、[esbuild problem matchers extension](https://marketplace.visualstudio.com/items?itemName=connor4312.esbuild-problem-matchers)をインストールする必要があるかもしれません。）
 
 </details>
 
-## License
+## ライセンス
 
 [Apache 2.0 © 2024 Cline Bot Inc.](./LICENSE)
